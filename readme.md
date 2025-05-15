@@ -15,7 +15,7 @@
     ```bash
     nodemon server.js
     ```
-    /**
+
      * GET /list-files
      *
      * Fetches and returns a list of files from the S3 bucket.
@@ -27,4 +27,9 @@
      * Response:
      * - 200: JSON object containing an array of file names under the key `files`.
      * - 500: JSON object with an error message if the files could not be listed.
-     */
+
+     * Simple Express server to list files from an AWS S3 bucket.
+       * 
+       * - Loads environment variables for AWS credentials and configuration.
+       * - Provides a GET /list-files endpoint to return all file keys in the specified S3 bucket.
+       * - Supports optional folder listing by prefix.
