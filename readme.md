@@ -15,3 +15,16 @@
     ```bash
     nodemon server.js
     ```
+    /**
+     * GET /list-files
+     *
+     * Fetches and returns a list of files from the S3 bucket.
+     * 
+     * Description:
+     * Use this path to fetch files from the S3 bucket. Optionally, you can specify a folder (e.g., 'public/') 
+     * when calling the underlying `listAllFiles` function to list files within a specific directory.
+     * 
+     * Response:
+     * - 200: JSON object containing an array of file names under the key `files`.
+     * - 500: JSON object with an error message if the files could not be listed.
+     */
