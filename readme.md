@@ -30,6 +30,6 @@
 
      * Simple Express server to list files from an AWS S3 bucket.
        * 
-       * - Loads environment variables for AWS credentials and configuration.
-       * - Provides a GET /list-files endpoint to return all file keys in the specified S3 bucket.
-       * - Supports optional folder listing by prefix.
+       *  Loads environment variables for AWS credentials and configuration.
+       *  Provides a GET /list-files endpoint to return all file keys in the specified S3 bucket.
+       *  Supports optional folder listing by prefix.
