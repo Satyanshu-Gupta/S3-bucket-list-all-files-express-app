@@ -1,5 +1,5 @@
 {
-  "name": "s3-bucket-bode-app",
+  "name": "s3-bucket-express-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
